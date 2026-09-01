@@ -17,6 +17,32 @@ stock Personagem_Carregar(playerid)
     return 1;
 }
 
+stock Personagem_ProcessarCriacao(playerid, dialogid, response, listitem, inputtext[])
+{
+    if(!response) return 1;
+    
+    switch(dialogid)
+    {
+        case DIALOG_CRIACAO_SEXO:
+        {
+            pInfo[playerid][pi_sexo] = listitem; // 0 = Masculino, 1 = Feminino
+            SendClientMessage(playerid, COR_CONFIRMACAO, "[PERSONAGEM] Sexo definido.");
+        }
+        case DIALOG_CRIACAO_IDADE:
+        {
+            pInfo[playerid][pi_idade] = strval(inputtext);
+            SendClientMessage(playerid, COR_CONFIRMACAO, "[PERSONAGEM] Idade definida.");
+        }
+        case DIALOG_CRIACAO_ORIGEM:
+        {
+            strcpy(pInfo[playerid][pi_origem], inputtext);
+            SendClientMessage(playerid, COR_CONFIRMACAO, "[PERSONAGEM] Personagem criado com sucesso!");
+            SetPlayerPos(playerid, 1958.3783, 1343.1572, 15.3746);
+        }
+    }
+    return 1;
+}
+
 stock Personagem_Incapacitar(playerid, attackerid)
 {
     pInfo[playerid][pi_incapacitado] = true;

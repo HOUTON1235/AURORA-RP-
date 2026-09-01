@@ -23,6 +23,8 @@ new TotalVeiculos = 0;
 
 stock Veiculo_InicializarSpawns()
 {
+    TotalVeiculos = 0;
+    
     // Criar spawn de polícia
     Veiculo_CriarSpawn(1, 598, 264.2956, 77.8171, 1.9075, 180.0, 3, 3, -1); // Police Car
     Veiculo_CriarSpawn(2, 598, 293.1959, 110.2411, 1.2835, 180.0, 3, 3, -1); // Police Car
@@ -37,6 +39,8 @@ stock Veiculo_InicializarSpawns()
 
 stock Veiculo_CriarSpawn(id, modelid, Float:x, Float:y, Float:z, Float:a, cor1, cor2, dono)
 {
+    if(TotalVeiculos >= MAX_SPAWN_VEICULOS) return 0;
+    
     Veiculos[TotalVeiculos][vei_id] = id;
     Veiculos[TotalVeiculos][vei_modelid] = modelid;
     Veiculos[TotalVeiculos][vei_x] = x;

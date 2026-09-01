@@ -3,6 +3,15 @@
 // sistema_chat.inc
 // =============================================================================
 
+// Função auxiliar para calcular distância
+stock Float:GetDistance(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2)
+{
+    new Float:dx = x1 - x2;
+    new Float:dy = y1 - y2;
+    new Float:dz = z1 - z2;
+    return floatsqroot((dx*dx) + (dy*dy) + (dz*dz));
+}
+
 // ============ FUNÇÕES DE CHAT ============
 stock Chat_EnviarMensagem(playerid, tipo, mensagem[])
 {
@@ -54,7 +63,9 @@ stock Chat_MensagemLocal(playerid, mensagem[])
     {
         if(!IsPlayerConnected(i)) continue;
         new Float:dist;
-        dist = GetPlayerDistanceFromPoint(i, x, y, z);
+        new Float:ix, Float:iy, Float:iz;
+        GetPlayerPos(i, ix, iy, iz);
+        dist = GetDistance(x, y, z, ix, iy, iz);
         if(dist <= 30.0)
         {
             format(string, sizeof(string), "%s diz: %s", GetPlayerNameEx(playerid), mensagem);
