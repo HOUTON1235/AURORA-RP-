@@ -67,7 +67,10 @@ stock Org_Carregar(id)
         format(chave, sizeof(chave), "Membro%d", m); DOF2_GetString(caminho, chave, OrgMembros[id][m], MAX_PLAYER_NAME);
         format(chave, sizeof(chave), "MbRank%d", m); OrgMembrosRank[id][m] = DOF2_GetInt(caminho, chave);
     }
-    VoIP_CriarStreamFaccao(id);
+    // Cria stream VoIP apenas se org tem nome válido
+    // Stream criado quando jogador entrar na org (VoIP_EntrarFaccao)
+    // if(strlen(OrgData[id][org_nome]) > 0)
+    //     VoIP_CriarStreamFaccao(id);
 }
 
 stock Org_CarregarTodas()

@@ -29,12 +29,18 @@ new gTotalCasas = 0;
 stock Casa_CarregarTodas()
 {
     gTotalCasas = 0;
+    new ausencias = 0;
     for(new id = 0; id < MAX_CASAS; id++)
     {
         new caminho[64];
         format(caminho, sizeof(caminho), "Casas/%d.ini", id);
-        if(!DOF2_FileExists(caminho)) continue;
-
+        if(!DOF2_FileExists(caminho))
+        {
+            ausencias++;
+            if(ausencias > 20) break; // Para ao encontrar 20 arquivos ausentes em sequência
+            continue;
+        }
+        ausencias = 0;
         CasaData[id][casa_id]      = id;
         CasaData[id][casa_preco]   = DOF2_GetInt(caminho, "Preco");
         CasaData[id][casa_trancada] = bool:DOF2_GetInt(caminho, "Trancada");

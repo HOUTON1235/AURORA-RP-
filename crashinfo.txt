@@ -1,0 +1,1253 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0019FD50	EBX: 0x041D3180	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x02F6F268	EBP: 0x0019FD60	ESP: 0x0019FD38
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x02F6F268   0x02F6F268   0x041D3180   0xFFFFFFFF
++0010: 0x0019FD38   0x0019F77C   0x0019FE8C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x041D3D38   0x004056CD
++0030: 0x00000000   0x004010B6   0x02F6F268   0x064D2B38
++0040: 0x048161A0   0x00402B63   0x02F6F268   0x0000000C
++0050: 0x0019FDA0   0x064D2B38   0x0019FDEC   0x02F6F268
++0060: 0x0000007E   0x00000000   0x00000000   0x01CBC994
++0070: 0x01CBC998   0x01CBCA5C   0x01C7CA60   0x01CBC9A4
++0080: 0x01C7CA60   0x041D3180   0x048161A0   0x00000000
++0090: 0x041CD020   0x00643020   0x732E51A7   0x02F6F268
++00A0: 0x0019FE08   0x0000007E   0x00000000   0x02F6F268
++00B0: 0x02F6F268   0x75C30F00   0x0046D7DC   0x00000000
++00C0: 0x0019FE08   0x0000007E   0x00679BD0   0x02F6F268
++00D0: 0x0000007E   0x0048F2D1   0x75C330D0   0x00679BD0
++00E0: 0x00000000   0x0048D555   0x00000000   0x000023F0
++00F0: 0x0019FF70   0x00285000   0x00017E2C   0x00010001
++0100: 0x00000064   0x00001E61   0x00000180   0x00003374
++0110: 0x00679BD0   0x656D6167   0x65646F6D   0x00003531
++0120: 0x004C4020   0x004C401C   0x00285000   0x004AB4A0
++0130: 0x0019FE58   0x0019FF60   0x0019FF60   0x0049D208
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Vinicius\Desktop\Style Real Life RPG- 2022\samp-server.exe)
+ntdll.dll	A: 0x77890000 - 0x77A34000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C10000 - 0x75D00000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77170000 - 0x7738C000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x767F0000 - 0x76DA5000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75B90000 - 0x75C0B000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75E70000 - 0x75F90000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x75750000 - 0x758ED000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x765F0000 - 0x76608000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x76740000 - 0x76763000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x75D00000 - 0x75DE0000	(C:\WINDOWS\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x72C20000 - 0x72C28000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x76DF0000 - 0x76EAF000	(C:\WINDOWS\System32\msvcrt.dll)
+WS2_32.dll	A: 0x76EB0000 - 0x76F13000	(C:\WINDOWS\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x758F0000 - 0x759AE000	(C:\WINDOWS\System32\RPCRT4.dll)
+WINMM.dll	A: 0x74610000 - 0x74638000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x76DC0000 - 0x76DE5000	(C:\WINDOWS\System32\IMM32.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Vinicius\Desktop\Style Real Life RPG- 2022\plugins\sscanf.DLL)
+VCRUNTIME140.dll	A: 0x73330000 - 0x73344000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+streamer.DLL	A: 0x732E0000 - 0x73324000	(C:\Users\Vinicius\Desktop\Style Real Life RPG- 2022\plugins\streamer.DLL)
+MSVCP120.dll	A: 0x73260000 - 0x732D1000	(C:\WINDOWS\SYSTEM32\MSVCP120.dll)
+MSVCR120.dll	A: 0x73170000 - 0x7325E000	(C:\WINDOWS\SYSTEM32\MSVCR120.dll)
+sampvoice.DLL	A: 0x72DE0000 - 0x72E0B000	(C:\Users\Vinicius\Desktop\Style Real Life RPG- 2022\plugins\sampvoice.DLL)
+MSVCP140.dll	A: 0x60FA0000 - 0x61011000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+kernel.appcore.dll	A: 0x74DC0000 - 0x74DCF000	(C:\WINDOWS\SYSTEM32\kernel.appcore.dll)
+mapandreas.DLL	A: 0x73150000 - 0x7315F000	(C:\Users\Vinicius\Desktop\Style Real Life RPG- 2022\plugins\mapandreas.DLL)
+mswsock.dll	A: 0x74760000 - 0x747B2000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x73610000 - 0x73621000	(C:\WINDOWS\system32\napinsp.dll)
+sechost.dll	A: 0x76770000 - 0x767E6000	(C:\WINDOWS\System32\sechost.dll)
+pnrpnsp.dll	A: 0x735D0000 - 0x735E6000	(C:\WINDOWS\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x735C0000 - 0x735D0000	(C:\WINDOWS\system32\wshbth.dll)
+NLAapi.dll	A: 0x735A0000 - 0x735B6000	(C:\WINDOWS\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x75680000 - 0x756B2000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+DNSAPI.dll	A: 0x742A0000 - 0x74330000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x765C0000 - 0x765C7000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x73590000 - 0x7359E000	(C:\WINDOWS\System32\winrnr.dll)
+bcrypt.dll	A: 0x76720000 - 0x76739000	(C:\WINDOWS\System32\bcrypt.dll)
+rasadhlp.dll	A: 0x73580000 - 0x73588000	(C:\Windows\System32\rasadhlp.dll)
+SHCORE.dll	A: 0x76F20000 - 0x76FA7000	(C:\WINDOWS\System32\SHCORE.dll)
+combase.dll	A: 0x774A0000 - 0x77720000	(C:\WINDOWS\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x76560000 - 0x765BF000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+shlwapi.dll	A: 0x76FB0000 - 0x76FF5000	(C:\WINDOWS\System32\shlwapi.dll)
+windows.storage.dll	A: 0x74DD0000 - 0x753DA000	(C:\WINDOWS\SYSTEM32\windows.storage.dll)
+advapi32.dll	A: 0x77390000 - 0x7740B000	(C:\WINDOWS\System32\advapi32.dll)
+uxtheme.dll	A: 0x72D20000 - 0x72D94000	(C:\WINDOWS\system32\uxtheme.dll)
+pmls.dll	A: 0x74D00000 - 0x74DB1000	(C:\WINDOWS\system32\pmls.dll)
+PSAPI.DLL	A: 0x76DB0000 - 0x76DB6000	(C:\WINDOWS\System32\PSAPI.DLL)
+OLEACC.dll	A: 0x74C70000 - 0x74CC3000	(C:\WINDOWS\system32\OLEACC.dll)
+OLEAUT32.dll	A: 0x777E0000 - 0x77876000	(C:\WINDOWS\System32\OLEAUT32.dll)
+WININET.dll	A: 0x74810000 - 0x74C67000	(C:\WINDOWS\system32\WININET.dll)
+VERSION.dll	A: 0x75710000 - 0x75718000	(C:\WINDOWS\system32\VERSION.dll)
+ntmarta.dll	A: 0x747E0000 - 0x74809000	(C:\WINDOWS\SYSTEM32\ntmarta.dll)
+PROPSYS.dll	A: 0x74520000 - 0x745E2000	(C:\WINDOWS\SYSTEM32\PROPSYS.dll)
+Schannel.dll	A: 0x70960000 - 0x709DC000	(C:\WINDOWS\SYSTEM32\Schannel.dll)
+SSPICLI.DLL	A: 0x73810000 - 0x73831000	(C:\WINDOWS\SYSTEM32\SSPICLI.DLL)
+CFGMGR32.dll	A: 0x75F90000 - 0x75FCB000	(C:\WINDOWS\System32\CFGMGR32.dll)
+edputil.dll	A: 0x70FD0000 - 0x70FEB000	(C:\WINDOWS\SYSTEM32\edputil.dll)
+Windows.StateRepositoryPS.dll	A: 0x6FE40000 - 0x6FED3000	(C:\Windows\System32\Windows.StateRepositoryPS.dll)
+urlmon.dll	A: 0x71F00000 - 0x720A8000	(C:\WINDOWS\SYSTEM32\urlmon.dll)
+iertutil.dll	A: 0x71B00000 - 0x71D2D000	(C:\WINDOWS\SYSTEM32\iertutil.dll)
+srvcli.dll	A: 0x72990000 - 0x729AD000	(C:\WINDOWS\SYSTEM32\srvcli.dll)
+netutils.dll	A: 0x74290000 - 0x7429B000	(C:\WINDOWS\SYSTEM32\netutils.dll)
+wintypes.dll	A: 0x6F2A0000 - 0x6F37B000	(C:\Windows\System32\wintypes.dll)
+appresolver.dll	A: 0x6F220000 - 0x6F291000	(C:\Windows\System32\appresolver.dll)
+SLC.dll	A: 0x6FE20000 - 0x6FE3F000	(C:\Windows\System32\SLC.dll)
+Bcp47Langs.dll	A: 0x70F80000 - 0x70FC8000	(C:\Windows\System32\Bcp47Langs.dll)
+USERENV.dll	A: 0x75720000 - 0x75745000	(C:\Windows\System32\USERENV.dll)
+sppc.dll	A: 0x6FE00000 - 0x6FE1C000	(C:\Windows\System32\sppc.dll)
+OneCoreCommonProxyStub.dll	A: 0x6F1E0000 - 0x6F21D000	(C:\Windows\System32\OneCoreCommonProxyStub.dll)
+OneCoreUAPCommonProxyStub.dll	A: 0x6EE20000 - 0x6F1D9000	(C:\Windows\System32\OneCoreUAPCommonProxyStub.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F540	EBX: 0x00000000	ECX: 0x00000000	EDX: 0x00B37B78
+ESI: 0x00000000	EDI: 0x038D2598	EBP: 0x0018F550	ESP: 0x0018F528
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x038D2598   0x05567BEC   0x00000000   0xFFFFFFFF
++0010: 0x0018F528   0x0018EF64   0x0018F87C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x04F51170   0x004056CD
++0030: 0x00000000   0x00402BD0   0x038D2598   0x060DA554
++0040: 0x0018F5C4   0x038D2598   0x00000070   0x00000005
++0050: 0x00000000   0x00B72964   0x00B72968   0x00B77AE8
++0060: 0x00B37B78   0x00B72974   0x00B37B78   0x04F4BD94
++0070: 0x05567BEC   0xAAB1C666   0x04F46020   0x0061BE58
++0080: 0x6A543484   0x038D2598   0x0018F618   0x00000070
++0090: 0x00000000   0x038D2598   0x00000000   0x0018F888
++00A0: 0x0046EC31   0x00000000   0x0018F618   0x00000005
++00B0: 0x038D2598   0x00000000   0x038D2598   0x00000019
++00C0: 0x038D2598   0x00000001   0x038D2598   0xFFFFFFFF
++00D0: 0x038D2598   0x0018F634   0x0018F61C   0x0018F770
++00E0: 0x0609F6D8   0x00000000   0x0018F871   0x038D2598
++00F0: 0x00000000   0x0609F6D8   0x00493912   0x00000070
++0100: 0x00000019   0x00000001   0xFFFFFFFF   0x00B37AEC
++0110: 0x0018FB34   0x0018F9E8   0x00493750   0x0049AA3C
++0120: 0x0122000A   0x0000FFFF   0x00450019   0x00000000
++0130: 0x00000148   0x00000148   0x00000140   0x0018F9E8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\New folder\samp-server.exe)
+ntdll.dll	A: 0x77C60000 - 0x77DCF000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75AE0000 - 0x75C20000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77A40000 - 0x77B17000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x765F0000 - 0x778AB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x762D0000 - 0x76423000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x74CC0000 - 0x74CC8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x6DE80000 - 0x6DEA0000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x75FC0000 - 0x7607E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x75910000 - 0x75A8D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x75720000 - 0x75761000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x757C0000 - 0x758CC000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x765A0000 - 0x765ED000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x6DE60000 - 0x6DE80000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x75C20000 - 0x75CDA000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x761B0000 - 0x761B7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x75780000 - 0x757BA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x6DE40000 - 0x6DE5F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x75A90000 - 0x75AAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75490000 - 0x75499000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x755E0000 - 0x7561E000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x75430000 - 0x75484000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75AB0000 - 0x75AD5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75EA0000 - 0x75FB2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x6DE10000 - 0x6DE3D000	(C:\Users\Administrator\Desktop\New folder\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x6AD80000 - 0x6ADED000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6B020000 - 0x6B035000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x6DC80000 - 0x6DC83000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x6AD70000 - 0x6AD74000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x6AD60000 - 0x6AD63000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x6AD50000 - 0x6AD54000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x6AD40000 - 0x6AD45000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x6AD30000 - 0x6AD34000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x6AD20000 - 0x6AD23000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x6ACA0000 - 0x6ACA3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x6AC90000 - 0x6AC93000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x6AC80000 - 0x6AC84000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x6AC70000 - 0x6AC73000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x6AB80000 - 0x6AC61000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x6A540000 - 0x6A5AD000	(C:\Users\Administrator\Desktop\New folder\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\New folder\plugins\sscanf.dll)
+mapandreas.dll	A: 0x6AB70000 - 0x6AB7F000	(C:\Users\Administrator\Desktop\New folder\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x6A4C0000 - 0x6A53B000	(C:\Users\Administrator\Desktop\New folder\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x6AB60000 - 0x6AB6A000	(C:\Users\Administrator\Desktop\New folder\plugins\pawn-memory.dll)
+mswsock.dll	A: 0x6DD40000 - 0x6DD85000	(C:\Windows\system32\mswsock.dll)
+napinsp.dll	A: 0x6DDB0000 - 0x6DDC0000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x6DD90000 - 0x6DDA4000	(C:\Windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x6DCC0000 - 0x6DD3E000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x6DCB0000 - 0x6DCB9000	(C:\Windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x6DC60000 - 0x6DC80000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x6DC50000 - 0x6DC58000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+kernel.appcore.dll	A: 0x75000000 - 0x75009000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+rasadhlp.dll	A: 0x6C140000 - 0x6C147000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F558	EBX: 0x00000000	ECX: 0x00000000	EDX: 0x00B34540
+ESI: 0x00000000	EDI: 0x04552588	EBP: 0x0018F568	ESP: 0x0018F540
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x04552588   0x062E770C   0x00000000   0xFFFFFFFF
++0010: 0x0018F540   0x0018EF7C   0x0018F894   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05C6E108   0x004056CD
++0030: 0x00000000   0x00402BD0   0x04552588   0x06E56A94
++0040: 0x0018F5DC   0x04552588   0x00000070   0x00000005
++0050: 0x00000000   0x00B6F384   0x00B6F388   0x00B74508
++0060: 0x00B34540   0x00B6F394   0x00B34540   0x05C68D2C
++0070: 0x062E770C   0x88F0E608   0x05C63020   0x0067E9E0
++0080: 0x6A543484   0x04552588   0x0018F630   0x00000070
++0090: 0x00000003   0x04552588   0x00000003   0x0018F8A0
++00A0: 0x0046EC31   0x00000000   0x0018F630   0x00000005
++00B0: 0x04552588   0x00000003   0x04552588   0x00000019
++00C0: 0x04552588   0x00000001   0x04552588   0x00000000
++00D0: 0x04552588   0x0018F64C   0x0018F634   0x0018F788
++00E0: 0x06E1BC18   0x00000000   0x0018F889   0x04552588
++00F0: 0x00000000   0x06E1BC18   0x00493912   0x00000070
++0100: 0x00000019   0x00000001   0x00000000   0x00B3450C
++0110: 0x0018FB34   0x0018FA00   0x00493750   0x0018F6A8
++0120: 0x010C0001   0x00000000   0x00000019   0x00000003
++0130: 0x00000098   0x00000098   0x00000090   0x0018FA00
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\New folder\samp-server.exe)
+ntdll.dll	A: 0x77C60000 - 0x77DCF000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75AE0000 - 0x75C20000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77A40000 - 0x77B17000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x765F0000 - 0x778AB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x762D0000 - 0x76423000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x74CC0000 - 0x74CC8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x6DE80000 - 0x6DEA0000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x75FC0000 - 0x7607E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x75910000 - 0x75A8D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x75720000 - 0x75761000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x757C0000 - 0x758CC000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x765A0000 - 0x765ED000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x6DE60000 - 0x6DE80000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x75C20000 - 0x75CDA000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x761B0000 - 0x761B7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x75780000 - 0x757BA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x6DE40000 - 0x6DE5F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x75A90000 - 0x75AAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75490000 - 0x75499000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x755E0000 - 0x7561E000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x75430000 - 0x75484000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75AB0000 - 0x75AD5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75EA0000 - 0x75FB2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x6DE10000 - 0x6DE3D000	(C:\Users\Administrator\Desktop\New folder\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x6AD80000 - 0x6ADED000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6B020000 - 0x6B035000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x6DC80000 - 0x6DC83000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x6AD70000 - 0x6AD74000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x6AD60000 - 0x6AD63000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x6AD50000 - 0x6AD54000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x6AD40000 - 0x6AD45000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x6AD30000 - 0x6AD34000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x6AD20000 - 0x6AD23000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x6ACA0000 - 0x6ACA3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x6AC90000 - 0x6AC93000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x6AC80000 - 0x6AC84000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x6AC70000 - 0x6AC73000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x6AB80000 - 0x6AC61000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x6A540000 - 0x6A5AD000	(C:\Users\Administrator\Desktop\New folder\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\New folder\plugins\sscanf.dll)
+discord-connector.dll	A: 0x68B20000 - 0x68FF5000	(C:\Users\Administrator\Desktop\New folder\plugins\discord-connector.dll)
+log-core2.dll	A: 0x68A70000 - 0x68B15000	(C:\Users\Administrator\Desktop\New folder\log-core2.dll)
+ADVAPI32.dll	A: 0x76080000 - 0x760FC000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x778B0000 - 0x77A38000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x755D0000 - 0x755DE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x6DDF0000 - 0x6DE08000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x6E190000 - 0x6E1AE000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x75000000 - 0x75009000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x6DD40000 - 0x6DD85000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x6DCC0000 - 0x6DD3E000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x6C140000 - 0x6C147000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x6DC60000 - 0x6DC80000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x6DC50000 - 0x6DC58000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x6AB70000 - 0x6AB7F000	(C:\Users\Administrator\Desktop\New folder\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x6A4C0000 - 0x6A53B000	(C:\Users\Administrator\Desktop\New folder\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x6AB60000 - 0x6AB6A000	(C:\Users\Administrator\Desktop\New folder\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x6DDB0000 - 0x6DDC0000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x6DD90000 - 0x6DDA4000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x6DCB0000 - 0x6DCB9000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x004522F7 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0000000A	EBX: 0x09E1F138	ECX: 0x00000002	EDX: 0x00000002
+ESI: 0x00000022	EDI: 0x0AC9CEE0	EBP: 0x01D9DCB4	ESP: 0x0018FCC0
+EFLAGS: 0x00210203
+
+Stack:
++0000: 0x0000000A   0x02D1F7A0   0x01D9D4C0   0x0018FD80
++0010: 0x0018FD00   0x004537C7   0x00000022   0x00000050
++0020: 0x00000002   0x00000009   0x00000000   0x27981C68
++0030: 0x01D92950   0x0018FD00   0x00000000   0x01D989E0
++0040: 0x00000013   0x02D1F7A0   0x0045A295   0x02D1F7A0
++0050: 0x00000002   0x00000009   0x00000000   0x27981C68
++0060: 0x09042950   0x0018FD00   0x6DE1F16A   0x02D1F7A0
++0070: 0x00000002   0x00000009   0x00000000   0x27981C68
++0080: 0x00182950   0x0018FD00   0x20197AC8   0x01D989E0
++0090: 0x00000001   0x00000000   0x27981C68   0x6ABB2950
++00A0: 0x27981C68   0x00002950   0x02D1F7A0   0x0018FD00
++00B0: 0x6AD90013   0x0018FDBC   0x6DE26E88   0xFFFFFFFF
++00C0: 0x0018FDC8   0x6DE146E3   0x20197A80   0x01D989E0
++00D0: 0x001C4DC8   0x00000000   0x40B6AC46   0x6DE39774
++00E0: 0x094D2B80   0x0000003C   0x41700000   0x101020B8
++00F0: 0x00000010   0x00000010   0x20197A80   0x0018FEA4
++0100: 0x6DE267F8   0x00000000   0x0018FE10   0x6DE21E8F
++0110: 0xE0891BE4   0x00000185   0x01D989E0   0x01D993A0
++0120: 0x00000000   0x6D74A902   0x15000000   0x0018FDF4
++0130: 0x77AFAD0B   0x0018FE04   0x6ADAEBEB   0x0018FE10
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\New folder\samp-server.exe)
+ntdll.dll	A: 0x77C60000 - 0x77DCF000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75AE0000 - 0x75C20000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77A40000 - 0x77B17000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x765F0000 - 0x778AB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x762D0000 - 0x76423000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x74CC0000 - 0x74CC8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x6DE80000 - 0x6DEA0000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x75FC0000 - 0x7607E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x75910000 - 0x75A8D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x75720000 - 0x75761000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x757C0000 - 0x758CC000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x765A0000 - 0x765ED000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x6DE60000 - 0x6DE80000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x75C20000 - 0x75CDA000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x761B0000 - 0x761B7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x75780000 - 0x757BA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x6DE40000 - 0x6DE5F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x75A90000 - 0x75AAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75490000 - 0x75499000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x755E0000 - 0x7561E000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x75430000 - 0x75484000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75AB0000 - 0x75AD5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75EA0000 - 0x75FB2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x6DE10000 - 0x6DE3D000	(C:\Users\Administrator\Desktop\New folder\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x6AD80000 - 0x6ADED000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6B020000 - 0x6B035000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x6DC80000 - 0x6DC83000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x6AD70000 - 0x6AD74000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x6AD60000 - 0x6AD63000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x6AD50000 - 0x6AD54000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x6AD40000 - 0x6AD45000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x6AD30000 - 0x6AD34000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x6AD20000 - 0x6AD23000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x6ACA0000 - 0x6ACA3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x6AC90000 - 0x6AC93000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x6AC80000 - 0x6AC84000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x6AC70000 - 0x6AC73000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x6AB80000 - 0x6AC61000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x6A540000 - 0x6A5AD000	(C:\Users\Administrator\Desktop\New folder\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\New folder\plugins\sscanf.dll)
+discord-connector.dll	A: 0x68B20000 - 0x68FF5000	(C:\Users\Administrator\Desktop\New folder\plugins\discord-connector.dll)
+log-core2.dll	A: 0x68A70000 - 0x68B15000	(C:\Users\Administrator\Desktop\New folder\log-core2.dll)
+ADVAPI32.dll	A: 0x76080000 - 0x760FC000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x778B0000 - 0x77A38000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x755D0000 - 0x755DE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x6DDF0000 - 0x6DE08000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x6E190000 - 0x6E1AE000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x75000000 - 0x75009000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x6DD40000 - 0x6DD85000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x6DCC0000 - 0x6DD3E000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x6C140000 - 0x6C147000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x6DC60000 - 0x6DC80000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x6DC50000 - 0x6DC58000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x6AB70000 - 0x6AB7F000	(C:\Users\Administrator\Desktop\New folder\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x6A4C0000 - 0x6A53B000	(C:\Users\Administrator\Desktop\New folder\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x6AB60000 - 0x6AB6A000	(C:\Users\Administrator\Desktop\New folder\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x6DDB0000 - 0x6DDC0000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x6DD90000 - 0x6DDA4000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x6DCB0000 - 0x6DCB9000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05B9805C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05B9805C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05B9D3C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06E0761C
++0040: 0x06251FE0   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06E0761C   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB5638
++0070: 0x00BB563C   0x00BB58CC   0x00B75918   0x00BB5648
++0080: 0x00B75918   0x05B9805C   0x06251FE0   0x00000000
++0090: 0x05B92020   0x006B9F84   0x75063484   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x043125E0
++00C0: 0x0018F868   0x00000000   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05B9805C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x75063C6D   0x0018F8D0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x75300000 - 0x7532D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x75290000 - 0x752FD000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x75270000 - 0x75285000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x75260000 - 0x75263000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x75250000 - 0x75254000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x75240000 - 0x75243000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75230000 - 0x75234000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75220000 - 0x75225000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75210000 - 0x75214000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75200000 - 0x75203000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x751F0000 - 0x751F3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x751E0000 - 0x751E3000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x751D0000 - 0x751D4000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x751C0000 - 0x751C3000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x750D0000 - 0x751B1000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x75060000 - 0x750CD000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x74B80000 - 0x75055000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74AD0000 - 0x74B75000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x748E0000 - 0x748EF000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74860000 - 0x748DB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74850000 - 0x7485A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05B6D05C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043225E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043225E0   0x043225E0   0x05B6D05C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05B723C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043225E0   0x06DDC61C
++0040: 0x06226FE0   0x00402B63   0x043225E0   0x00000025
++0050: 0x0018F3C8   0x06DDC61C   0x0018F414   0x043225E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB5638
++0070: 0x00BB563C   0x00BB58CC   0x00B75918   0x00BB5648
++0080: 0x00B75918   0x05B6D05C   0x06226FE0   0x00000000
++0090: 0x05B67020   0x006B9F84   0x75063484   0x043225E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043225E0   0x0018F878   0x004746BE   0x043225E0
++00C0: 0x0018F868   0x00000000   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043225E0
++00E0: 0x043225E0   0x05B6D05C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x75063C6D   0x0018F8D0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x75300000 - 0x7532D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x75290000 - 0x752FD000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x75270000 - 0x75285000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x75260000 - 0x75263000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x75250000 - 0x75254000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x75240000 - 0x75243000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75230000 - 0x75234000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75220000 - 0x75225000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75210000 - 0x75214000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75200000 - 0x75203000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x751F0000 - 0x751F3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x751E0000 - 0x751E3000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x751D0000 - 0x751D4000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x751C0000 - 0x751C3000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x750D0000 - 0x751B1000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x75060000 - 0x750CD000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x74B80000 - 0x75055000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74AD0000 - 0x74B75000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x748E0000 - 0x748EF000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74860000 - 0x748DB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74850000 - 0x7485A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05B8D05C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043225E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043225E0   0x043225E0   0x05B8D05C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05B923C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043225E0   0x06DFC598
++0040: 0x06246FE0   0x00402B63   0x043225E0   0x00000025
++0050: 0x0018F3C8   0x06DFC598   0x0018F414   0x043225E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05B8D05C   0x06246FE0   0x00000000
++0090: 0x05B87020   0x006B9F84   0x74EC3484   0x043225E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043225E0   0x0018F878   0x004746BE   0x043225E0
++00C0: 0x0018F868   0x00000000   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043225E0
++00E0: 0x043225E0   0x05B8D05C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x74EC3C6D   0x0018F8D0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x75160000 - 0x7518D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x750F0000 - 0x7515D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x750D0000 - 0x750E5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x750C0000 - 0x750C3000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x750B0000 - 0x750B4000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x750A0000 - 0x750A3000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75090000 - 0x75094000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75080000 - 0x75085000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75070000 - 0x75074000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75060000 - 0x75063000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x75050000 - 0x75053000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x75040000 - 0x75043000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75030000 - 0x75034000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x75020000 - 0x75023000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74F30000 - 0x75011000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x74EC0000 - 0x74F2D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74E10000 - 0x74EB5000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x74E00000 - 0x74E0F000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74D80000 - 0x74DFB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74D70000 - 0x74D7A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05B6B05C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05B6B05C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05B703C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06DDA580
++0040: 0x06224FC8   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06DDA580   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05B6B05C   0x06224FC8   0x00000000
++0090: 0x05B65020   0x006B9F6C   0x74EFF428   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x00000000
++00C0: 0x0018F868   0x0000005A   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05B6B05C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x75160000 - 0x7518D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x750F0000 - 0x7515D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x750D0000 - 0x750E5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x750C0000 - 0x750C3000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x750B0000 - 0x750B4000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x750A0000 - 0x750A3000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75090000 - 0x75094000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75080000 - 0x75085000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75070000 - 0x75074000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75060000 - 0x75063000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x75050000 - 0x75053000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x75040000 - 0x75043000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75030000 - 0x75034000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x75020000 - 0x75023000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74F30000 - 0x75011000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x74EC0000 - 0x74F26000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74E10000 - 0x74EB5000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x74E00000 - 0x74E0F000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74D80000 - 0x74DFB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74D70000 - 0x74D7A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05BAE05C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05BAE05C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05BB33C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06E1D580
++0040: 0x06267FC8   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06E1D580   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05BAE05C   0x06267FC8   0x00000000
++0090: 0x05BA8020   0x006B9F6C   0x74F5F428   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x00000000
++00C0: 0x0018F868   0x0000005A   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05BAE05C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sampvoice.dll	A: 0x751C0000 - 0x751ED000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+MSVCP140.dll	A: 0x75150000 - 0x751BD000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x75130000 - 0x75145000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x75120000 - 0x75123000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x75110000 - 0x75114000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x75100000 - 0x75103000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x750F0000 - 0x750F4000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x750E0000 - 0x750E5000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x750D0000 - 0x750D4000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x750C0000 - 0x750C3000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x750B0000 - 0x750B3000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x750A0000 - 0x750A3000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75090000 - 0x75094000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x75080000 - 0x75083000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74F90000 - 0x75071000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+streamer.dll	A: 0x74F20000 - 0x74F86000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74E70000 - 0x74F15000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x74E60000 - 0x74E6F000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74DE0000 - 0x74E5B000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74DD0000 - 0x74DDA000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05BB505C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05BB505C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05BBA3C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06E24580
++0040: 0x0626EFC8   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06E24580   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05BB505C   0x0626EFC8   0x00000000
++0090: 0x05BAF020   0x006B9F6C   0x751BF428   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x00000000
++00C0: 0x0018F868   0x0000005A   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05BB505C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+streamer.dll	A: 0x75180000 - 0x751E6000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+MSVCP140.dll	A: 0x75110000 - 0x7517D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x750F0000 - 0x75105000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x750E0000 - 0x750E4000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x750D0000 - 0x750D3000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x750C0000 - 0x750C5000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x750B0000 - 0x750B4000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x750A0000 - 0x750A3000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75090000 - 0x75094000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x75080000 - 0x75083000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75070000 - 0x75074000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75060000 - 0x75063000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x75050000 - 0x75053000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x75040000 - 0x75043000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74F50000 - 0x75031000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+sampvoice.dll	A: 0x74F20000 - 0x74F4D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74E70000 - 0x74F15000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x74E60000 - 0x74E6F000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x74DE0000 - 0x74E5B000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74DD0000 - 0x74DDA000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05BA905C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05BA905C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05BAE3C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06E18598
++0040: 0x06262FE0   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06E18598   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05BA905C   0x06262FE0   0x00000000
++0090: 0x05BA3020   0x006B9F84   0x75233484   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x043125E0
++00C0: 0x0018F868   0x00000000   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05BA905C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x75233C6D   0x0018F8D0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+streamer.dll	A: 0x75230000 - 0x7529D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+MSVCP140.dll	A: 0x751C0000 - 0x7522D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x751A0000 - 0x751B5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75190000 - 0x75194000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x75180000 - 0x75183000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x75170000 - 0x75173000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75160000 - 0x75164000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x75150000 - 0x75153000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x75140000 - 0x75144000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75130000 - 0x75135000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75120000 - 0x75124000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75110000 - 0x75113000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x75100000 - 0x75103000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x750F0000 - 0x750F3000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74D00000 - 0x74DE1000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+sampvoice.dll	A: 0x750C0000 - 0x750ED000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74C50000 - 0x74CF5000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x750B0000 - 0x750BF000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x75030000 - 0x750AB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74C40000 - 0x74C4A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x05B9705C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x043125E0	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00210286
+
+Stack:
++0000: 0x043125E0   0x043125E0   0x05B9705C   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FE24   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x05B9C3C8   0x004056CD
++0030: 0x00000000   0x004010B6   0x043125E0   0x06E06598
++0040: 0x06250FE0   0x00402B63   0x043125E0   0x00000025
++0050: 0x0018F3C8   0x06E06598   0x0018F414   0x043125E0
++0060: 0x0000005A   0x00000000   0x00000000   0x00BB55B4
++0070: 0x00BB55B8   0x00BB5848   0x00B75894   0x00BB55C4
++0080: 0x00B75894   0x05B9705C   0x06250FE0   0x00000000
++0090: 0x05B91020   0x006B9F84   0x75233484   0x043125E0
++00A0: 0x0018F868   0x0000005A   0x00000000   0x00000000
++00B0: 0x043125E0   0x0018F878   0x004746BE   0x043125E0
++00C0: 0x0018F868   0x00000000   0x72657449   0x476E4F5F
++00D0: 0x4D656D61   0x4965646F   0x0074696E   0x043125E0
++00E0: 0x043125E0   0x05B9705C   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x75233C6D   0x0018F8D0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\samp-server.exe)
+ntdll.dll	A: 0x77BD0000 - 0x77D3F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76A90000 - 0x76BD0000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76C30000 - 0x76D07000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75420000 - 0x766DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77370000 - 0x774C3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75390000 - 0x75398000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75370000 - 0x75390000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76D90000 - 0x76E4E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76FB0000 - 0x7712D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76A40000 - 0x76A81000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77640000 - 0x7774C000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76E50000 - 0x76E9D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x75350000 - 0x75370000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x77850000 - 0x7790A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x772D0000 - 0x772D7000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77AC0000 - 0x77AFA000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x75330000 - 0x7534F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76F90000 - 0x76FAD000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75400000 - 0x75409000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76980000 - 0x769BE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x753A0000 - 0x753F4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76EA0000 - 0x76EC5000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x766E0000 - 0x767F2000	(C:\Windows\SYSTEM32\MSCTF.dll)
+streamer.dll	A: 0x75230000 - 0x7529D000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\streamer.dll)
+MSVCP140.dll	A: 0x751C0000 - 0x7522D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x751A0000 - 0x751B5000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x75190000 - 0x75194000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x75180000 - 0x75183000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x75170000 - 0x75173000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x75160000 - 0x75164000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x75150000 - 0x75153000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x75140000 - 0x75144000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x75130000 - 0x75135000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x75120000 - 0x75124000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x75110000 - 0x75113000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x75100000 - 0x75103000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x750F0000 - 0x750F3000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74D00000 - 0x74DE1000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+sampvoice.dll	A: 0x750C0000 - 0x750ED000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sampvoice.dll)
+sscanf.dll	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\sscanf.dll)
+discord-connector.dll	A: 0x69560000 - 0x69A35000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\discord-connector.dll)
+log-core2.dll	A: 0x74C50000 - 0x74CF5000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\log-core2.dll)
+ADVAPI32.dll	A: 0x769C0000 - 0x76A3C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+CRYPT32.dll	A: 0x77130000 - 0x772B8000	(C:\Windows\SYSTEM32\CRYPT32.dll)
+MSASN1.dll	A: 0x772C0000 - 0x772CE000	(C:\Windows\SYSTEM32\MSASN1.dll)
+CRYPTSP.dll	A: 0x74AB0000 - 0x74AC8000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x74A60000 - 0x74A7E000	(C:\Windows\SYSTEM32\bcrypt.dll)
+kernel.appcore.dll	A: 0x74A50000 - 0x74A59000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+mswsock.dll	A: 0x74A00000 - 0x74A45000	(C:\Windows\system32\mswsock.dll)
+DNSAPI.dll	A: 0x74980000 - 0x749FE000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+rasadhlp.dll	A: 0x74970000 - 0x74977000	(C:\Windows\System32\rasadhlp.dll)
+IPHLPAPI.DLL	A: 0x74950000 - 0x74970000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74940000 - 0x74948000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+mapandreas.dll	A: 0x750B0000 - 0x750BF000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\mapandreas.dll)
+pawnraknet.dll	A: 0x75030000 - 0x750AB000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawnraknet.dll)
+pawn-memory.dll	A: 0x74C40000 - 0x74C4A000	(C:\Users\Administrator\Desktop\Maldivas City Roleplay - SAMP Android\plugins\pawn-memory.dll)
+napinsp.dll	A: 0x74840000 - 0x74850000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74820000 - 0x74834000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x74810000 - 0x74819000	(C:\Windows\System32\winrnr.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x004522F7 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0000000A	EBX: 0x096FBC78	ECX: 0x00000002	EDX: 0x00000002
+ESI: 0x00000026	EDI: 0x09F28B78	EBP: 0x01FCDC9C	ESP: 0x0018FCC0
+EFLAGS: 0x00210203
+
+Stack:
++0000: 0x0000000A   0x0308F7A0   0x01FCD4A8   0x0018FD80
++0010: 0x0018FD00   0x004537C7   0x00000026   0x00000050
++0020: 0x00000002   0x00000009   0x00000000   0xC8072AB3
++0030: 0x01FCB425   0x0018FD00   0x00000000   0x01FC89E8
++0040: 0x0000000E   0x0308F7A0   0x0045A295   0x0308F7A0
++0050: 0x00000002   0x00000009   0x00000000   0xC8072AB3
++0060: 0x0000B425   0x0018FD00   0x74D5F16A   0x0308F7A0
++0070: 0x00000002   0x00000009   0x00000000   0xC8072AB3
++0080: 0x0018B425   0x0018FD00   0x8372C9F2   0x01FC89E8
++0090: 0x00000000   0x00000000   0xC8072AB3   0x0000B425
++00A0: 0xC8072AB3   0x0000B425   0x0308F7A0   0x0018FD00
++00B0: 0x74E6000E   0x0018FDBC   0x74D66E88   0xFFFFFFFF
++00C0: 0x0018FDC8   0x74D546E3   0x8372C9BA   0x01FC89E8
++00D0: 0x0066D0B8   0x00000000   0x0018FDA8   0x74D79774
++00E0: 0x00369E99   0x0000000E   0x41700000   0x098E1008
++00F0: 0x00000005   0x00000005   0x8372C9BA   0x0018FEA4
++0100: 0x74D667F8   0x00000000   0x0018FE10   0x74D61E8F
++0110: 0xAEF8B4FC   0x00000186   0x01FC89E8   0x01FC9338
++0120: 0x00000000   0xBF29FC02   0x15000000   0x0018FDF4
++0130: 0x76B7AD0B   0x0018FE04   0x74E7F1BB   0x0018FE10
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\samp-server.exe)
+ntdll.dll	A: 0x777D0000 - 0x7793F000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x762E0000 - 0x76420000	(C:\Windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76AC0000 - 0x76B97000	(C:\Windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75020000 - 0x762DB000	(C:\Windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x77190000 - 0x772E3000	(C:\Windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x74F90000 - 0x74F98000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x74F70000 - 0x74F90000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76590000 - 0x7664E000	(C:\Windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x76900000 - 0x76A7D000	(C:\Windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76D10000 - 0x76D51000	(C:\Windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x767E0000 - 0x768EC000	(C:\Windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x76420000 - 0x7646D000	(C:\Windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74F50000 - 0x74F70000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76D60000 - 0x76E1A000	(C:\Windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x76730000 - 0x76737000	(C:\Windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x77020000 - 0x7705A000	(C:\Windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74F30000 - 0x74F4F000	(C:\Windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76FF0000 - 0x7700D000	(C:\Windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75000000 - 0x75009000	(C:\Windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76A80000 - 0x76ABE000	(C:\Windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x74FA0000 - 0x74FF4000	(C:\Windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x76750000 - 0x76775000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76470000 - 0x76582000	(C:\Windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x10042000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\sscanf.DLL)
+streamer.DLL	A: 0x74EC0000 - 0x74F2D000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\streamer.DLL)
+MSVCP140.dll	A: 0x74E50000 - 0x74EBD000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x74E30000 - 0x74E45000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+api-ms-win-crt-runtime-l1-1-0.dll	A: 0x74E20000 - 0x74E24000	(C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll)
+api-ms-win-crt-heap-l1-1-0.dll	A: 0x74E10000 - 0x74E13000	(C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll)
+api-ms-win-crt-utility-l1-1-0.dll	A: 0x74E00000 - 0x74E03000	(C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll)
+api-ms-win-crt-convert-l1-1-0.dll	A: 0x74DF0000 - 0x74DF4000	(C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll)
+api-ms-win-crt-environment-l1-1-0.dll	A: 0x74DE0000 - 0x74DE3000	(C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll)
+api-ms-win-crt-stdio-l1-1-0.dll	A: 0x74DD0000 - 0x74DD4000	(C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll)
+api-ms-win-crt-math-l1-1-0.dll	A: 0x74DC0000 - 0x74DC5000	(C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll)
+api-ms-win-crt-string-l1-1-0.dll	A: 0x74DB0000 - 0x74DB4000	(C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll)
+api-ms-win-crt-locale-l1-1-0.dll	A: 0x74DA0000 - 0x74DA3000	(C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll)
+api-ms-win-crt-filesystem-l1-1-0.dll	A: 0x74D90000 - 0x74D93000	(C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll)
+api-ms-win-crt-time-l1-1-0.dll	A: 0x74D80000 - 0x74D83000	(C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll)
+ucrtbase.DLL	A: 0x74BB0000 - 0x74C91000	(C:\Windows\SYSTEM32\ucrtbase.DLL)
+sampvoice.DLL	A: 0x74D50000 - 0x74D7D000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\sampvoice.DLL)
+mapandreas.DLL	A: 0x74D40000 - 0x74D4F000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\mapandreas.DLL)
+pawnraknet.DLL	A: 0x74B30000 - 0x74BAB000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\pawnraknet.DLL)
+pawn-memory.DLL	A: 0x74D30000 - 0x74D3A000	(C:\Users\Administrator\Desktop\(GM)Rockect Roleplay 2\plugins\pawn-memory.DLL)
+mswsock.dll	A: 0x74AE0000 - 0x74B25000	(C:\Windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74D20000 - 0x74D30000	(C:\Windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74AC0000 - 0x74AD4000	(C:\Windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x749C0000 - 0x74A3E000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74AB0000 - 0x74AB9000	(C:\Windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74A90000 - 0x74AB0000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x749B0000 - 0x749B8000	(C:\Windows\SYSTEM32\WINNSI.DLL)
+kernel.appcore.dll	A: 0x74950000 - 0x74959000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+rasadhlp.dll	A: 0x74940000 - 0x74947000	(C:\Windows\System32\rasadhlp.dll)
+SHCORE.dll	A: 0x74CA0000 - 0x74D16000	(C:\Windows\SYSTEM32\SHCORE.dll)
+uxtheme.dll	A: 0x74850000 - 0x7493D000	(C:\Windows\system32\uxtheme.dll)
+PROPSYS.dll	A: 0x74720000 - 0x74843000	(C:\Windows\SYSTEM32\PROPSYS.dll)
+OLEAUT32.dll	A: 0x772F0000 - 0x77387000	(C:\Windows\SYSTEM32\OLEAUT32.dll)
+ADVAPI32.dll	A: 0x77420000 - 0x7749C000	(C:\Windows\SYSTEM32\ADVAPI32.dll)
+SETUPAPI.dll	A: 0x77550000 - 0x776FD000	(C:\Windows\SYSTEM32\SETUPAPI.dll)
+CRYPTSP.dll	A: 0x74700000 - 0x74718000	(C:\Windows\SYSTEM32\CRYPTSP.dll)
+bcrypt.dll	A: 0x746B0000 - 0x746CE000	(C:\Windows\SYSTEM32\bcrypt.dll)
+Secur32.dll	A: 0x746A0000 - 0x746A9000	(C:\Windows\SYSTEM32\Secur32.dll)

@@ -498,16 +498,16 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 public OnPlayerUpdate(playerid)
 {
-    // Atualiza posição persistida em tempo real para salvamentos
-    if(pInfo[playerid][pi_logado] && !IsPlayerInAnyVehicle(playerid))
+    // Atualiza posição em tempo real
+    if(IsPlayerConnected(playerid) && pInfo[playerid][pi_logado])
     {
-        GetPlayerPos(playerid,
-            pInfo[playerid][pi_pos_x],
-            pInfo[playerid][pi_pos_y],
-            pInfo[playerid][pi_pos_z]);
-        GetPlayerFacingAngle(playerid, pInfo[playerid][pi_angulo]);
-        pInfo[playerid][pi_interior]     = GetPlayerInterior(playerid);
-        pInfo[playerid][pi_virtual_world] = GetPlayerVirtualWorld(playerid);
+        new Float:x, Float:y, Float:z, Float:a;
+        GetPlayerPos(playerid, x, y, z);
+        GetPlayerFacingAngle(playerid, a);
+        pInfo[playerid][pi_pos_x] = x;
+        pInfo[playerid][pi_pos_y] = y;
+        pInfo[playerid][pi_pos_z] = z;
+        pInfo[playerid][pi_angulo] = a;
     }
     return 1;
 }

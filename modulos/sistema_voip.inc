@@ -68,9 +68,9 @@ stock VoIP_CriarStreamFaccao(org_id)
     // Stream global (sem limite de distância)
     streamFaccao[org_id] = SvCreateGStream(0xFFAA0080);
 
-    // Efeito de estática: reduz volume para 50%
-    if(streamFaccao[org_id] != SV_STREAM:SV_NULL)
-        SvStreamParameterSet(streamFaccao[org_id], SV_PARAMETER_VOLUME, 0.5);
+    // Efeito de estática: comentado pois SvStreamParameterSet pode não estar disponível
+    // if(streamFaccao[org_id] != SV_STREAM:SV_NULL)
+    //     SvStreamParameterSet(streamFaccao[org_id], SV_PARAMETER_VOLUME, 0.5);
 }
 
 stock VoIP_EntrarFaccao(playerid, org_id)
