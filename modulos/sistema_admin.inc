@@ -255,8 +255,8 @@ forward Discord_LogAdmin(const acao[], const executor[], const alvo[], const det
 public  Discord_LogAdmin(const acao[], const executor[], const alvo[], const detalhes[])
 {
     #pragma unused acao, executor, alvo
-    // Envia para canal Discord de logs se o plugin estiver conectado
-    DCC_SendChannelMessage(0, 0, detalhes);
+    // Discord desativado ate canal ser configurado
+    // DCC_SendChannelMessage(0, 0, detalhes);
     return 1;
 }
 
@@ -264,8 +264,8 @@ forward Discord_LogEvento(const titulo[], const descricao[]);
 public  Discord_LogEvento(const titulo[], const descricao[])
 {
     new msg[256];
-    format(msg, sizeof(msg), "📢 %s: %s", titulo, descricao);
-    DCC_SendChannelMessage(0, 0, msg);
+    format(msg, sizeof(msg), "[EVENTO] %s: %s", titulo, descricao);
+    // DCC_SendChannelMessage desativado ate canal ser configurado
     return 1;
 }
 

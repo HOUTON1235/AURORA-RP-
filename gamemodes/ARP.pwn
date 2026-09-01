@@ -250,7 +250,7 @@ new TIMER_MUTE_CHECK;
 #include "../modulos/sistema_policial.inc"
 #include "../modulos/sistema_cidade.inc"
 #include "../modulos/sistema_admin.inc"
-#include "../modulos/sistema_botsrck.inc"
+// #include "../modulos/sistema_botsrck.inc"
 
 // ---------------------------------------------------------------------------
 // 14. Callbacks principais
@@ -275,7 +275,7 @@ public OnGameModeInit()
     Org_CarregarTodas();
 
     // Inicia sistema de transporte público
-    Cidade_IniciarTransportePublico();
+    // Cidade_IniciarTransportePublico();
 
     // --- Timers globais ---
     TIMER_AUTOSAVE          = SetTimer("Timer_AutoSave",           300000,  true);
@@ -517,7 +517,7 @@ public OnPlayerUpdate(playerid)
 // ---------------------------------------------------------------------------
 public OnDCConnect(botid)
 {
-    DCC_SendChannelMessage(botid, 0, "✅ Servidor Aurora Roleplay online.");
+    // DCC_SendChannelMessage(botid, 0, "✅ Servidor Aurora Roleplay online.");
     return 1;
 }
 
@@ -528,7 +528,7 @@ public OnPlayerSpawn(playerid)
 {
     if(IsPlayerNPC(playerid))
     {
-        return BotSpawn();
+        return 1;
     }
     return 1;
 }

@@ -68,7 +68,7 @@ stock Cidade_AplicarEfeitosClima()
 {
     if(gClimaAtual == CLIMA_TEMPESTADE)
     {
-        SetPlayerFog(0, 50); // visibilidade reduzida para todos
+        // SetPlayerFog removido — API nao existe em SA-MP
         SendClientMessageToAll(COR_SERVIDOR1,
             "[CLIMA] Tempestade! Visibilidade reduzida. Consumo de combustivel +20%%.");
     }
@@ -95,7 +95,7 @@ stock Cidade_AtualizarBlips()
 // ---------------------------------------------------------------------------
 // Mensagem automática — Req 17.6
 // ---------------------------------------------------------------------------
-static new gMsgAutoIdx = 0;
+new gMsgAutoIdx = 0;
 static const gMensagensAuto[][128] = {
     "[AURORA] Bem-vindo ao Aurora Roleplay! Use /ajuda para ver os comandos.",
     "[AURORA] Lembre-se: roleplay sempre em primeiro lugar!",
@@ -128,7 +128,7 @@ stock Cidade_GerarEventoTerritorio(territorio_id)
 // ---------------------------------------------------------------------------
 stock Cidade_VerificarPassagemOnibus(playerid)
 {
-    foreach(new p : 0, sizeof(gParadasOnibus))
+    for(new p = 0; p < sizeof(gParadasOnibus); p++)
     {
         if(IsPlayerInRangeOfPoint(playerid,
             3.0,

@@ -3,7 +3,7 @@ new OnibusNpc[2];
 new Text3D:TextoOnibusBot[MAX_VEHICLES];
 
 // Conexao dos bots
-CallBack:: ConectarBotsSV()
+public ConectarBotsSV()
 {
     // Onibus
     OnibusNpc[0] = AddStaticVehicleEx(431,1683.5056, -2245.9348, -2.6817, 187.4125, 1, 3, false); // onibus para o npc
@@ -21,7 +21,7 @@ CallBack:: ConectarBotsSV()
 }
 
 // CallBacks
-CallBack:: BotSpawn()
+public BotSpawn()
 {
 	for(new i = 0; i < MAX_PLAYERS; i++)
 	{

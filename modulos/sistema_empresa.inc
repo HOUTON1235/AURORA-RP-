@@ -196,12 +196,14 @@ stock Empresa_VenderProduto(playerid, id, slot)
     EmpData[id][emp_caixa] += preco;
 
     // Entrega item ao comprador
+    new nomeItem[32];
+    strcopy(nomeItem, EmpEstoque[id][slot][estoque_nome], 32);
     Inventario_AdicionarItem(playerid,
         EmpEstoque[id][slot][estoque_item_id],
         1,
         0.5,
         CAT_MISC,
-        EmpEstoque[id][slot][estoque_nome]);
+        nomeItem);
 
     new nome[MAX_PLAYER_NAME], ts = gettime();
     GetPlayerName(playerid, nome, MAX_PLAYER_NAME);
