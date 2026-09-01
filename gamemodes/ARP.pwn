@@ -227,8 +227,17 @@ new TIMER_MUTE_CHECK;
 
 // ---------------------------------------------------------------------------
 // 12. Mapa do servidor (objetos estáticos)
+//     COMENTADO TEMPORARIAMENTE: O mapserver.inc (legado GCRP) estava causando
+//     conflito com o sistema de iteradores do YSI/foreach, gerando erro:
+//     "Runtime error 20: Invalid index parameter (bad entry point)"
+//     
+//     SOLUÇÃO IMPLEMENTADA:
+//     - Comente este include para testar inicialização do servidor
+//     - Se servidor iniciar com sucesso, proceda com a limpeza do mapserver.inc
+//     - Substitua por um arquivo de mapa limpo (mapas/mapserver_clean.inc)
 // ---------------------------------------------------------------------------
-#include "../mapas/mapserver.inc"
+// #include "../mapas/mapserver.inc"
+#include "../mapas/mapserver_clean.inc"
 
 // ---------------------------------------------------------------------------
 // 13. Includes dos módulos na ordem do grafo de dependências
